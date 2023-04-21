@@ -1,0 +1,64 @@
+.total-box{
+  margin-top: 50px;
+  margin-left: 40.0px;
+  margin-right: 500px;
+  padding-left: 50px;
+  border: 3px solid black;
+}
+
+.title-para{
+  font-size: 50px;
+}
+
+.start-button{
+  background-color: green;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.enter-button{
+  background-color: aqua;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.next-button{
+  background-color:lightgray;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.input-box{
+  width: 150px;
+  height: 30px;
+  font-size: large;
+  font-weight: bold;
+  border-color:black;
+  border-radius: 2px;
+  border-width: 3px;
+}
+
+
+.correct-wrong-box{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.question-text{
+  font-size:100px;
+  font-weight: bolder;
+}

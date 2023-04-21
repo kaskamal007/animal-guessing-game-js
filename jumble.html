@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JUMBLE WORDS</title>
+    <link rel="stylesheet" href="jumble.css">
+    <!--
+    <script>
+      function appEnd()
+      {
+        document.getElementById("word").value="kamal";
+      }
+    </script>
+    -->
+  <script src="jumble.js"></script>
+  </head>
+  <body>
+    <div class="total-box">
+    <p class="title-para">GUESS THE ANIMAL</p>
+    <p class="question-text" id="question"></p>
+    <button onclick="appStart()" class="start-button">START</button>
+    
+    <input class="input-box" type="text" id="word">
+    <button onclick="displayAnswer()" class="enter-button">ENTER</button>
+    <button onclick="appEnd()" class="next-button">NEXT</button>
+     <p  class="correct-wrong-box" id="demo"></p>
+    </div>
+  </body>
+</html>
